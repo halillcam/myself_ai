@@ -1,17 +1,48 @@
-# myself_ai
+# Myself AI
 
-A new Flutter project.
 
-## Getting Started
 
-This project is a starting point for a Flutter application.
+## Proje Hakkında
 
-A few resources to get you started if this is your first Flutter project:
+Herkese merhabalar 
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+Myself AI, Flutter ile geliştirdiğim ve telefon üzerinde **local olarak çalışan bir yapay zeka sohbet uygulamasıdır.**
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Bu projede amacım herhangi bir API kullanmadan, yapay zeka modelini direkt mobil cihaz üzerinde çalıştırabilmekti.
+
+Model olarak Google Gemma'nın:
+
+```
+gemma-tflite-gemma-2b-it-cpu-int4-v1
+```
+
+modelini kullandım.
+
+Uygulama içerisinde kullanıcı kendi model dosyasını seçerek yapay zeka ile sohbet edebiliyor. Model cihaz üzerinde çalıştığı için mesajlar herhangi bir sunucuya gönderilmiyor.
+
+## Kullanılan Teknolojiler
+
+* Flutter
+* Dart
+* Google Gemma
+* MediaPipe
+
+## Kullandığım Paketler
+
+* flutter_gemma
+* flutter_gemma_mediapipe
+* file_picker
+* shared_preferences
+
+## Projede Öğrendiklerim
+
+Bu proje sürecinde;
+
+* Lokal AI model çalıştırmayı
+
+uygulamalı olarak deneyimleme fırsatı buldum.
+
+## Görsel
+ <p align="center">
+  <img src="https://files.catbox.moe/gvo1qp.jpg" width="300"/>
+</p>
